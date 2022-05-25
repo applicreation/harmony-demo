@@ -1,0 +1,8 @@
+---
+
+name: Demo
+modules:
+  - name: Catalog
+    url: /catalog
+  - name: Docs
+    url: /docs
