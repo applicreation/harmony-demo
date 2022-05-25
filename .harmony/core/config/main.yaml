@@ -2,7 +2,7 @@
 
 name: Demo
 modules:
+  - name: Example
+    url: /example
   - name: Catalog
     url: /catalog
-  - name: Docs
-    url: /docs

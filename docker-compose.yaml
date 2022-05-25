@@ -9,5 +9,7 @@ services:
     image: ghcr.io/applicreation/harmony-core:latest
     volumes:
       - ./.harmony/core:/root/.harmony:ro
+  example:
+    image: ghcr.io/applicreation/harmony-module-example
   catalog:
     image: ghcr.io/applicreation/harmony-module-catalog
