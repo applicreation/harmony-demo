@@ -1,10 +1,12 @@
 # harmony-demo
 
+## Details
+
+This is a very simple setup to demonstrate the ease of getting up and running with Harmony.
+
 ## Prerequisites
 
-The following tools must be installed:
-
-* [Docker](https://www.docker.com/products/docker-desktop)
+The only tool required is [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
 ## Usage
 
