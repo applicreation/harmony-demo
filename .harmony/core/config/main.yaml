@@ -2,7 +2,9 @@
 
 name: Demo
 modules:
-  - name: Example
-    url: /example
   - name: Catalog
     url: /catalog
+  - name: Example (HTML)
+    url: /example
+  - name: Example (Node)
+    url: /example-node
