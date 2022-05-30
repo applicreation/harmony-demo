@@ -13,6 +13,8 @@ services:
     image: ghcr.io/applicreation/harmony-module-example:v0
   example-node:
     image: ghcr.io/applicreation/harmony-module-example-node:v0
+  example-php:
+    image: ghcr.io/applicreation/harmony-module-example-php:v0
   catalog:
     image: ghcr.io/applicreation/harmony-module-catalog:v0
     env_file:

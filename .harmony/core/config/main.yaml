@@ -8,3 +8,5 @@ modules:
     url: /example
   - name: Example (Node)
     url: /example-node
+  - name: Example (PHP)
+    url: /example-php
