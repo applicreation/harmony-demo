@@ -1,12 +1,7 @@
 ---
 
-name: Demo
 modules:
-  - name: Catalog
-    url: /catalog
-  - name: Example (HTML)
-    url: /example
-  - name: Example (Node)
-    url: /example-node
-  - name: Example (PHP)
-    url: /example-php
+  - id: example-html
+  - id: example-node
+  - id: example-php
+  - id: catalog
