@@ -3,7 +3,7 @@
 repository:
   name: harmony-demo
   description: Harmony demo
-  homepage: https://github.com/lickdltd/harmony-demo
+  homepage: https://github.com/applicreation/harmony-demo
   topics: harmony, demo
   private: false
   has_issues: false
