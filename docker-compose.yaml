@@ -21,3 +21,9 @@ services:
       - ./.harmony/catalog/.env
     volumes:
       - ./.harmony/catalog:/root/.harmony:ro
+  docs:
+    image: ghcr.io/applicreation/harmony-module-docs:v0
+    env_file:
+      - ./.harmony/docs/.env
+    volumes:
+      - ./.harmony/docs:/root/.harmony:ro
