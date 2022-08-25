@@ -7,22 +7,23 @@ services:
       - 80:80
   core:
     image: ghcr.io/applicreation/harmony-core:v0
+    restart: on-failure
+    env_file:
+      - ./.harmony/core/.env
+    environment:
+      GOOGLE_REDIRECT_HOST: http://localhost
     volumes:
       - ./.harmony/core:/root/.harmony:ro
-  example-html:
-    image: ghcr.io/applicreation/harmony-module-example-html:v0
-  example-node:
-    image: ghcr.io/applicreation/harmony-module-example-node:v0
-  example-php:
-    image: ghcr.io/applicreation/harmony-module-example-php:v0
   catalog:
     image: ghcr.io/applicreation/harmony-module-catalog:v0
+    restart: on-failure
     env_file:
       - ./.harmony/catalog/.env
     volumes:
       - ./.harmony/catalog:/root/.harmony:ro
   docs:
     image: ghcr.io/applicreation/harmony-module-docs:v0
+    restart: on-failure
     env_file:
       - ./.harmony/docs/.env
     volumes:
