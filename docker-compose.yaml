@@ -10,8 +10,6 @@ services:
     restart: on-failure
     env_file:
       - ./.harmony/core/.env
-    environment:
-      GOOGLE_REDIRECT_HOST: http://localhost
     volumes:
       - ./.harmony/core:/root/.harmony:ro
   catalog:
