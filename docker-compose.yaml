@@ -10,6 +10,7 @@ services:
     restart: on-failure
     env_file:
       - ./.harmony/core/.env
+      - ./.harmony/core/main.env
     volumes:
       - ./.harmony/core:/root/.harmony:ro
   catalog:
